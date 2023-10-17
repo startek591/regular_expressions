@@ -10,4 +10,4 @@ t`;
 
 let regex1 = /h\tt/g;
 
-console.log(text.match(text));
+console.log(text.match(regex1));
