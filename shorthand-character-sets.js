@@ -1,7 +1,7 @@
 let text = `A String that contains numbers (12345)
    A second line _ (12345)`;
 
-let regex1 = /\w/g;
+let regex1 = /\s/g;
 
 console.log(text.match(regex1));
 
