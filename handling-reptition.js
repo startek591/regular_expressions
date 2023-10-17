@@ -1,6 +1,6 @@
 let text = `She sells seashells on a seashore. The shells she sells are seashells, I'm sure.`;
 
-let regex1 = /[A-Z]+/g;
+let regex1 = /[A-Z]*/g;
 
 console.log(text.match(regex1));
 
