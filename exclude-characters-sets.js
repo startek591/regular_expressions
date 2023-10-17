@@ -1,5 +1,5 @@
-let text = "0XF89F";
+let text = "abcdefghijklmno";
 
-let regex1 = /0x[^0-9A-F][0-9A-F]/g;
+let regex1 = /[^a-z]/g;
 
 console.log(text.match(regex1));
