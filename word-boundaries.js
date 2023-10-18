@@ -1,6 +1,6 @@
 let text = `Inplant this idea; plan to plant multiple trees on this planet`;
 
-let regex1 = /\bplan\b/g;
+let regex1 = /\Bplan\B/g;
 
 console.log(text.match(regex1));
 
